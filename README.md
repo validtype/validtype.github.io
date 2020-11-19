@@ -1,2 +1,5 @@
-# validtype.github.io
-validtype website
+## validtype webpage ##
+
+---
+
+visit [validtype.com](https://validtype.com)
