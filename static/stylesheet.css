@@ -11,11 +11,13 @@ body {
 
 #brand {
     text-align: left;
+    color: #000;
 }
 
 #comment {
     text-align: left;
     color: #444;
+    margin-bottom: 10em;
 }
 
 #content {
@@ -31,26 +33,41 @@ h1 {
 }
 
 a {
-    color: #000;
+    color: #444;
     text-decoration: none;
 }
 
 a:visited {
-    color: #000
+    color: #444;
 }
 
 a:hover, a:focus {
-    color: #444
+    color: #000;
 }
 
 a:active {
     color: #444
 }
 
-hr {
-    color: #a00
+img {
+    opacity: 0.6;
 }
+
+img:hover {
+    opacity: 0.9;
+}
+
+hr {
+    margin-top: 2px;
+    height: 2px;
+    border: none;
+    background: #c00;
+    width: 100%;
+    color: #c00;
+}
+
 footer {
     text-align: right;
+    line-height: 1.4em;
     color: #444
 }
